@@ -16,6 +16,7 @@
     <body>
         <h1>台北市政府地圖</h1>
         <div id="map"></div>
+        <a href="./index.html">返回上一頁</a>
         <script
             async="async"
             defer="defer"
@@ -51,7 +52,7 @@
                 const map = new google
                     .maps
                     .Map(document.getElementById("map"), {
-                        zoom: 15,
+                        zoom: 12,
                         center: cityhall
                     });
 
